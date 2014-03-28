@@ -12,7 +12,7 @@ class PluginInstaller extends LibraryInstaller
      */
     public function getPackageBasePath(PackageInterface $package)
     {
-        return 'plugins/'.$package->getPrettyName();
+        return 'plugins/'.substr($package->getPrettyName(), 8);
     }
 
     public function supports($packageType)
