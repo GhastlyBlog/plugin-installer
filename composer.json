@@ -1,0 +1,14 @@
+{
+    "name" : "ghastly/plugin-installer",
+    "type" : "composer-plugin",
+    "license" : "UNLICENSE",
+    "autoload" : {
+        "prs-0" : {"Ghastly\\Composer" : "src/"}
+    },
+    "extra" : {
+        "class" : "Ghastly\\Composer\\PluginInstallerPlugin"
+    },
+    "require" : {
+        "composer-plugin-api" : "*"
+    }
+}
