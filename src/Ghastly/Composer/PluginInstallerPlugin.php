@@ -3,7 +3,7 @@
 namespace Ghastly\Composer;
 
 use Composer\Composer;
-use Composer\IOInterface;
+use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 
 class PluginInstallerPlugin implements PluginInterface
